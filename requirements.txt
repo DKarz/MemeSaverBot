@@ -34,5 +34,6 @@ sqlparse==0.3.0
 urllib3==1.25.3
 virtualenv==16.6.2
 webencodings==0.5.1
+wget==3.2
 wolframalpha==3.0.1
 xmltodict==0.12.0
