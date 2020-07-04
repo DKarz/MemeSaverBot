@@ -1,9 +1,19 @@
+start_msg = """
+Hello! I am MEME SAVER BOT.
+My aim to receive and store your memes.
+Send me a picture and its name. Later you will use the name to get your meme.
+Apart from memename you can add group tag using <code>%</code>. Example:
+<code>salvation %thanos</code>
+So, using <code>%thanos</code> you receive all memes with such group name.
+"""
+
+
 import telebot
 import saver
 import db
 import os
 from signal import signal, SIGINT, SIGTERM
-bot = telebot.TeleBot("964675929:AAEQKdFRPlEHEfWiWsdxqRwp3u1dQpL9eUI")
+bot = telebot.TeleBot("1209093948:AAHQkxabewwFNKDj1toF0Uk-bAEfNQG70hA")
 print("--------------------")
 print("       START")
 print("--------------------")
@@ -21,7 +31,7 @@ inf = info()
 @bot.message_handler(commands=["start"])
 def hello(message):
     #TODO FINSIH HELLO TEXT
-    bot.send_message(message.chat.id, "Hello! I am MEME SAVER BOT.\nMy aim to receive and store your memes.\nSend a picture and its name. Later you will use the name to get your meme.")
+    bot.send_message(message.chat.id, text=start_msg, parse_mode="HTML")
 
 
 @bot.message_handler(content_types=['photo'])
