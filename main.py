@@ -81,7 +81,8 @@ def handle_text(message):
     print("text received")
     try:
         if "%" in message.text:
-            names = [str(message.from_user.id) + "/" + el[2] for el in db.find(430437500, message.text.strip())]
+            print("group")
+            names = [str(message.from_user.id) + "/" + el[2] for el in db.find(message.from_user.id, message.text.strip())]
             urls = saver.download(names)
         else:
             urls = saver.download({f"{message.from_user.id}/{message.text}.jpg"})
