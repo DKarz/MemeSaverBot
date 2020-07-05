@@ -90,8 +90,9 @@ def handle_text(message):
 
         for url in urls:
             bot.send_photo(message.chat.id, url)
-    except:
-        bot.send_message(message.chat.id, "Sorry. No such a meme...")
+    except Exception as E:
+        print(E)
+        bot.send_message(message.chat.id, "Sorry. No such a meme...\n" + E)
 
 
 bot.polling(none_stop=True, interval=0)
