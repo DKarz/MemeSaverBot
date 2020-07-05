@@ -94,6 +94,7 @@ def handle_text(message):
         print(E)
         bot.send_message(message.chat.id, "Sorry. No such a meme...\n" + E)
         if str(E) == "MySQL Connection not available." or "MySQL Connection not available." in str(E):
+            print("exiting")
             exit()
 
 
