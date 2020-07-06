@@ -96,7 +96,7 @@ def handle_text(message):
         if str(E) == "MySQL Connection not available." or "MySQL Connection not available." in str(E):
             print("exiting")
          
-        exit()
+        #exit()
 
 
 bot.polling(none_stop=True, interval=0)
