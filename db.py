@@ -30,6 +30,9 @@ def add(Auserid, Abranch, Afilename):
 VALUES ('{Auserid}', '{Abranch}', '{Afilename}');""")
     mydb.commit()
     print("Done")
+    
+def back():
+    mydb.rollback()
 
 
 if __name__ == "__main__":
