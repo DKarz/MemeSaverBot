@@ -10,13 +10,13 @@ Send a picture to the bot:
 
 
 You can get by typing it name:
-![](https://github.com/DKarz/readme-media/blob/master/memesaver2.gif?raw=true)
+![](https://github.com/DKarz/readme-media/blob/master/memesaver5.gif?raw=true)
 
 
 Let us try adding 3 memes with group tag:
 ![](https://github.com/DKarz/readme-media/blob/master/memesaver3.gif?raw=true)
 ![](https://github.com/DKarz/readme-media/blob/master/memesaver4.gif?raw=true)
-![](https://github.com/DKarz/readme-media/blob/master/memesaver5.gif?raw=true)
+![](https://github.com/DKarz/readme-media/blob/master/memesaver2.gif?raw=true)
 
 
 If you type group tag (```%thanos``` in our case), you will receive all memes with such a group name:
