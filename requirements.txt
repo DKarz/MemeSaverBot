@@ -21,7 +21,7 @@ mysql-connector==2.2.9
 package-name==0.1
 post==2019.4.13
 public==2019.4.13
-Pygments==2.4.2
+Pygments==2.7.4
 pyTelegramBotAPI==3.6.6
 pytz==2019.1
 query-string==2019.4.13
